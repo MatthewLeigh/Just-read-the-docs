@@ -81,6 +81,12 @@ const config: Config = {
                     label: "Conventions",
                 },
                 {
+                    type: "docSidebar",
+                    sidebarId: "conceptsSidebar",
+                    position: "left",
+                    label: "Concepts",
+                },
+                {
                     to: "/blog",
                     label: "Guides",
                     position: "left"
