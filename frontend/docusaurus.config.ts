@@ -99,12 +99,6 @@ const config: Config = {
             links: [
                 {
                     title: "Docs",
-                    items: [
-                        {
-                            label: "Tutorial",
-                            to: "/docs/intro",
-                        }
-                    ]
                 },
 
                 {
