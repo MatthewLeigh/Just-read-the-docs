@@ -59,9 +59,21 @@ const config: Config = {
             items: [
                 {
                     type: "docSidebar",
-                    sidebarId: "tutorialSidebar",
+                    sidebarId: "languagesSidebar",
                     position: "left",
-                    label: "Docs",
+                    label: "Languages",
+                },
+                {
+                    type: "docSidebar",
+                    sidebarId: "toolsSidebar",
+                    position: "left",
+                    label: "Tools",
+                },
+                {
+                    type: "docSidebar",
+                    sidebarId: "conventionsSidebar",
+                    position: "left",
+                    label: "Conventions",
                 },
                 {
                     to: "/blog",
